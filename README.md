@@ -14,11 +14,16 @@ Refer to requirements.txt
 
 ### Build Docker Image
 1. Come to FaceRecognitionApp directory
-2.  Build the docker image : `docker build -t face_matching .`
+2.  Build the docker image : 
+```
+docker build -t face_matching .
+```
 
 ### Run Docker Image
 Now the Docker Image is created, we need to run the image in the container:
-`docker run -p 8888:5000 --name face_matching face_matching`
+```
+docker run -p 8888:5000 --name face_matching face_matching
+```
 
 ### Input
 Sample input:
